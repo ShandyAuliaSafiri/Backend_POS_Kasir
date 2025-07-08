@@ -12,9 +12,6 @@ cmd = "npm install && npx prisma generate && npm run build"
 # Start command
 startCommand = "npm run start:prod"
 
-# Health check
-healthcheckPath = "/health"
-healthcheckTimeout = 300
 
 # Restart policy
 restartPolicyType = "ON_FAILURE"
